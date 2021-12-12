@@ -10,7 +10,7 @@ function bai6() {
 
 document.getElementById("btn_6").onclick = function() {
     var content = "";
-    for(i=0; i<10; i++) {
+    for(i=1; i<=10; i++) {
         if(i%2 == 0) {
             content += "<div class='chan'>Div Chẵn</div>";
         } else {
